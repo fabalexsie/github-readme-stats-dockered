@@ -3,8 +3,8 @@ version: '3'
 services:
   web:
     build: .
-    ports:
-      - "9000:9000"
+    # ports:
+    #   - "9000:9000"
     environment:
       - WHITE_LISTED_USERS=fabalexsie
     #   - PAT_1=REPLACE_WITH_YOUR_GITHUB_PERSONAL_TOKEN_FOR_repo_AND_user # OR create a .env file
